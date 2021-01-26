@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <title>My Garage</title>
+</head>
+<body>
+    <main>
+        <h1> My Car Garage </h1>
+
+        <div id="formList">   
+            <form id="all-cars">
+                <label for="name"> Car Name </label>
+                <br>
+                <br>
+                <input type="text" name="name" id="name">
+                <br>
+                <br>
+                <label for="category"> Category Model </label>
+                <br>
+                <br>
+                <select name="category" id="category">
+                    <option value="bmw">BMW</option>
+                    <option value="kia">KIA</option>
+                    <option value="tesla">Tesla</option>
+                    <option value="Lexus">Lexus</option>
+                    <option value="Toyota">Toyota</option>
+                    <option value="Chevrolet">Chevrolet</option>
+                    <option value="Hyundai">Hyundai</option>
+                </select>
+                <br>
+                <br>
+                <label for="model"> Model Year </label>
+                <br>
+                <br>
+                <select name="model" id="model">
+                    <option value="2016"> 2016</option>
+                    <option value="2017">2017</option>
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                    <option value="2021">2021</option>
+                </select>
+                <br>
+                <br>
+                <input type="submit" name="submit" id="submit">
+                
+            </form>
+        </div>
+        
+        <div id="table">
+            <table id="cars-table"></table>
+        </div>
+
+
+    </main>
+   
+
+    <footer></footer>
+    <script src="app.js"></script>
+</body>
+</html>
